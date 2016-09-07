@@ -16,6 +16,7 @@
         android:hint="Add new ToDo..."
         android:id="@+id/main_text"
         android:imeOptions="actionSend"
+        android:singleLine="true"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true" />
 </RelativeLayout>
