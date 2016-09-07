@@ -8,8 +8,16 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.EditText;
+import android.widget.ListView;
+
+import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
+
+    ArrayList<String> toDoListStrings;
+    ListView toDoList ;
+    EditText mainText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
